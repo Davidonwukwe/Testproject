@@ -105,7 +105,7 @@ outerArea.addEventListener("click", function(){
 
 men.addEventListener("click", function(){
 
-    navContent.forEach(function(elem){
+    navContent.forEach((elem)=>{
     
         
         if(elem!==navMen){
@@ -131,7 +131,7 @@ men.addEventListener("click", function(){
 if(navMen.classList.contains("navAppear")){
         navMen.classList.remove("navAppear");
         men.classList.remove("navClicked");
-        navContent.forEach(function(elem){
+        navContent.forEach((elem)=>{
             elem.style.transition = "linear 0.5s";
             
         });
@@ -147,7 +147,7 @@ if(navMen.classList.contains("navAppear")){
         outerArea.style.display = "block";
         navMen.classList.add("navAppear");
         men.classList.add("navClicked");
-        alll.forEach(function(elem){
+        alll.forEach((elem)=>{
             if(elem!==men){
                 elem.style.transition = "all 0.5s"
                 elem.classList.add("nav");
@@ -162,7 +162,7 @@ if(navMen.classList.contains("navAppear")){
             
 
 women.addEventListener("click", function(){
-    navContent.forEach(function(elem){
+    navContent.forEach((elem)=>{
         
         if(elem!==navWomen){
             elem.style.transition = "none";
