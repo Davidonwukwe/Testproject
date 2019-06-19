@@ -298,7 +298,6 @@ collections.addEventListener("click", function(){
                 }
             });
         }
-   
     });
 
 
