@@ -1,0 +1,232 @@
+@media only screen and ( max-width: 1345px )
+{
+    .imgsecondCon{
+        width: 500px;
+         height: 480px;
+    
+   }
+   
+   .imgthirdCon{
+     width: 240px;
+     height: 240px;
+
+   }
+   
+   footer{
+    width: 100%;
+   }
+       
+}
+@media only screen and ( max-width: 1180px ){
+    
+    /* header{
+       display: none;
+    } */
+
+    
+        .imgsecondCon{
+            width: 40vw;
+             height: 39vw;
+        
+       }
+       
+       .imgthirdCon{
+         width: 20vw;
+         height: 21vw;
+    
+       }
+
+}
+
+@media only screen and ( max-width: 995px ){
+    .imgfirstCon{
+        width: 25vw;
+         height: 25vw;
+    
+   }
+    .imgsecondCon{
+        width: 40vw;
+         height: 40vw;
+    
+   }
+   
+   .imgthirdCon{
+     width: 20vw;
+     height: 20vw;
+
+   }
+   .bgImage{
+
+        background-size: cover;
+        background-position: center;
+    
+  }
+
+}
+
+
+@media only screen and ( max-width: 750px ){
+    .navAppear{
+        position: relative;
+    }
+    
+    .firstRow{
+        flex-flow: wrap;
+    }
+    .imgfirstCon{
+        width: 40vw;
+        height: 40vw;
+   
+      }
+
+    .secondRow{
+       
+        flex-direction: column;
+        margin-left: auto;
+    }
+    .imgsecondCon{
+        width: 80vw;
+        height: 80vw;
+   
+      }
+    .thirdRow{
+       
+        flex-flow: wrap;
+    }
+    .imgthirdCon{
+        width: 35vw;
+        height: 35vw;
+   
+      }
+      footer{
+        flex-flow: wrap;
+    }
+    /* .bgImage{
+        height: 80vh;
+    }
+    .Rectangle-2{
+        height: 80vh;
+    } */
+    .firstRow>div{
+        padding-bottom: 5%;
+        
+    } 
+    .secondRow>div{
+        padding-left: 5%;
+        padding-bottom: 5%;
+        width: 100vw;
+    }
+    .thirdRow>div{
+        padding-left: 20%;
+        padding-bottom: 5%;
+        width: 100vw;
+    }
+    header{
+        flex-direction: column;
+    }
+    .navi{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .secondUl{
+        display: none;
+    }
+    .innerCon{
+        display: inline-block;
+}
+.dIcons{
+    display: flex;
+}
+.imgCon{
+    width: 35vw;
+    height: 35vw;
+}
+
+.navCon{
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    width: fit-content;
+}
+.innerCon{
+    width: 40vw;
+}
+
+.navi{
+    padding-right: 0px;
+}
+li{
+    padding: 0 0 0 0;
+}
+.navUl li{
+    padding: 0  0 0 0;
+}
+.NIMI{
+    padding-left: 20px;
+}
+.topnav{
+    width: 100%;
+}
+
+    
+     
+}
+@media only screen and ( max-width: 400px ){
+    
+    .imgfirstCon{
+        width: 60vw;
+         height: 60vw;
+    
+   }
+    .firstRow{
+        flex-direction: column;
+    }
+    .firstRow>div{
+        padding-left: 15%;
+        padding-bottom: 5%;
+        width: 100vw;
+    } 
+    .secondRow{
+       
+        flex-direction: column;
+        margin-left: auto;
+    }
+    .imgsecondCon{
+        width: 80vw;
+        height: 80vw;
+   
+      }
+    .thirdRow{
+       
+        flex-direction: column;
+    }
+    .imgthirdCon{
+        width: 50vw;
+        height: 50vw;
+   
+      }
+      .hj{
+          width: 140%;
+      }
+}
+@media only screen and (max-width: 585px){
+    footer{
+        display: block;
+        
+    }
+
+}
+@media only screen and ( min-width: 751px )
+{
+    .navContent{
+        position: absolute;
+        left: 0;
+        z-index: -3;
+        width: 100vw;
+    }
+    .navUl{
+        display: flex;
+    }
+    
+}

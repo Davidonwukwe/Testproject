@@ -1,0 +1,73 @@
+.navMen, .navWomen, .navSales, .navCollections
+/* .navContent { */
+    {
+    height: inherit;
+    background: white;
+    position: relative;
+    display: none;
+    top: -600px;
+    z-index: 0;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+
+.navAppear{
+   transition: linear 0.5s;
+    top:0;
+    display: block;
+    
+
+}
+.accordion {
+  
+    color: white;
+    cursor: pointer;
+    /* padding: 18px; */
+    width: 100%;
+    border: none;
+    text-align: left;
+    transition:all  0.4s;
+  }
+  
+.navCon{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 3% auto;
+    padding-top: 4%;
+
+}
+.nav-img{
+    object-fit: cover;
+   width: 100%;
+   height: 100%;
+}
+.nav-img + p{
+    color: #000000;
+}
+.nav{
+    /* width: 30%; */
+    color: black;
+}
+.navClicked{
+    color:red;
+}
+.outerArea{
+    width: 100%;
+    height: 47vh;
+    position: absolute;
+    top: 50vh;
+    left: 0;
+    display: none;
+}
+.imgCon{
+    background: rgba(0, 0, 0, 0.35);
+    width: 20vw;
+    height: 20vw;
+}
+.headerbgw{
+    background: white;
+}
